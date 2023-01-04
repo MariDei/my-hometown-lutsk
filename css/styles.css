@@ -1,0 +1,234 @@
+body {
+    font-family: 'Montserrat', sans-serif;  
+    background: linear-gradient(89deg, rgb(253, 220, 155) 26.2%, rgb(255, 215, 165) 48.5%);
+}    
+
+.hero-container {   
+    background-image: url("https://volynua.com/storage/2022/03/17/78150_164.jpg");
+    background-size: cover;
+    margin: 40px 50px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px rgba(63, 63, 63, 0.5); 
+}
+
+.logo-lutsk { 
+    display: block;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px rgba(4, 4, 4, 0.5); 
+    margin: 15px auto;
+}
+
+.items {
+    list-style-type: none;
+    text-align: center;
+    padding: 0 auto;
+}
+
+.list-item {
+    display: -webkit-inline-flex;
+    margin: 0 10px;
+}
+
+.nav-link {
+    color: azure;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.hero-title {
+    font-family: 'Montez';
+    color: azure;
+    font-size: 150px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.city-name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 170px;
+    font-weight: 900;
+}
+
+.title {
+    font-family: 'Montez';
+    color: azure;
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.prologue {
+    color: azure;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    margin: 15px auto;
+}
+
+.informational-conteiner,
+.architecture-container,
+.parks-container,
+.food-container,
+.night-container {
+    margin: 40px 50px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px rgba(63, 63, 63, 0.5);
+}
+
+.informational-tіtle,
+.architecture-title, 
+.parks-title,
+.food-title,
+.night-title {
+    display: block;
+    color: rgb(68, 65, 65);
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 15px auto;
+}
+
+.informational-tіtle:hover,
+.architecture-title:hover, 
+.parks-title:hover,
+.food-title:hover,
+.night-title:hover {
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.informational-describe {
+    display: -webkit-inline;
+    color: rgb(68, 65, 65);
+    font-size: 20px;
+    font-weight: 400;
+    list-style-type: none;
+    padding: 0 auto;
+    margin: 15px 40px 0 15px;
+}
+
+.informational-detail {
+    font-weight: 600;
+}
+
+.list-item-information {
+    text-align: center;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px rgba(63, 63, 63, 0.5); 
+    margin: 20px auto;
+}
+
+.informational-describe-2 {
+    color: rgb(68, 65, 65);
+    font-size: 20px;
+    font-weight: 400;
+    list-style-type: none;
+    text-align: center;
+    margin: 15px auto;
+}
+
+.informational-describe-title {
+    display: -webkit-inline;
+    color: rgb(68, 65, 65);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin: 15px auto;
+}
+
+.map-lutsk {
+    display: block;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px rgba(4, 4, 4, 0.5); 
+    margin: 15px auto;
+}
+
+.architecture-describe {
+    color: rgb(68, 65, 65);
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.architecture-favourite-title,
+.parks-favourite-title,
+.food-favourite-title,
+.night-favourite-title {
+    color: rgb(68, 65, 65);
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.row {
+    display: -webkit-flex;
+    text-align: center;
+    padding: 0 auto;  
+    margin: 0 25px; 
+}
+
+.card {
+    box-shadow: 3px 3px 3px 3px rgba(63, 63, 63, 0.5); 
+    margin: 20px auto;
+}
+
+.card-title {
+    color: rgb(68, 65, 65);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;    
+}
+
+.night-describe {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;   
+} 
+
+.list-item-night {
+    display: inline-table;
+    color: rgb(68, 65, 65);
+    font-size: 20px;
+    font-weight: 400; 
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px rgba(4, 4, 4, 0.5); 
+    margin: 15px 15px;    
+}
+
+.creator {
+    color: rgb(68, 65, 65);
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.creator-instagram {
+    color: rgb(68, 65, 65);
+    text-decoration: none;
+}
+
+.creator-instagram:hover {
+    color: red;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+
+
