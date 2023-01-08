@@ -185,8 +185,7 @@ body {
 
 .row {
     display: flex;
-    text-align: center;
-    padding: 0 auto;  
+    text-align: center; 
     margin: 0 auto; 
 }
 
