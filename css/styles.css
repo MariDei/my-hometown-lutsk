@@ -220,7 +220,14 @@ body {
 .creator-instagram,
 .github-link {
     color: rgb(68, 65, 65);
+}
+
+.creator-instagram { 
     text-decoration: none;
+}
+
+.github-link {
+    text-decoration: underline
 }
 
 .creator-instagram:hover,
@@ -228,6 +235,10 @@ body {
     color: red;
     font-weight: 700;
     cursor: pointer;
+}
+
+.github-link:hover {
+    text-decoration: none;
 }
 
 
