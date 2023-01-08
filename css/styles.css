@@ -3,10 +3,12 @@ body {
     background: linear-gradient(89deg, rgb(253, 220, 155) 26.2%, rgb(255, 215, 165) 48.5%);
 }    
 
-.hero-container {   
+.hero-container {  
+    display: block;
     background-image: url("https://volynua.com/storage/2022/03/17/78150_164.jpg");
     background-size: cover;
-    margin: 40px 50px;
+    min-width: 375px;
+    margin: 20px 20px;
     border: none;
     border-radius: 15px;
     box-shadow: 5px 5px 5px 5px rgba(63, 63, 63, 0.5); 
@@ -26,8 +28,9 @@ body {
 }
 
 .list-item {
-    display: -webkit-inline-flex;
-    margin: 0 10px;
+    display: inline-flex;
+    justify-content: space-between;
+    margin: 0 20px;
 }
 
 .nav-link {
@@ -44,17 +47,21 @@ body {
 }
 
 .hero-title {
+    display: block;
     font-family: 'Montez';
     color: azure;
-    font-size: 150px;
+    font-size: 120px;
     font-weight: 600;
     text-align: center;
+    margin-top: 75px;
 }
 
 .city-name {
+    display: block;
     font-family: 'Montserrat', sans-serif;
-    font-size: 170px;
+    font-size: 110px;
     font-weight: 900;
+    margin-bottom: 25px;
 }
 
 .title {
@@ -78,7 +85,9 @@ body {
 .parks-container,
 .food-container,
 .night-container {
-    margin: 40px 50px;
+    display: block;
+    min-width: 375px;
+    margin: 20px 20px;
     border: none;
     border-radius: 15px;
     box-shadow: 5px 5px 5px 5px rgba(63, 63, 63, 0.5);
@@ -110,7 +119,7 @@ body {
 
 .informational-describe {
     display: flex;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
     color: rgb(68, 65, 65);
     font-size: 20px;
     font-weight: 400;
@@ -127,7 +136,7 @@ body {
     border: none;
     border-radius: 15px;
     box-shadow: 5px 5px 5px 5px rgba(63, 63, 63, 0.5); 
-    margin: 20px 5px;
+    margin: 5px 5px;
 }
 
 .informational-describe-2 {
@@ -140,7 +149,7 @@ body {
 }
 
 .informational-describe-title {
-    display: -webkit-inline;
+    display: block;
     color: rgb(68, 65, 65);
     font-size: 20px;
     font-weight: 600;
@@ -175,10 +184,10 @@ body {
 }
 
 .row {
-    display: -webkit-flex;
+    display: flex;
     text-align: center;
     padding: 0 auto;  
-    margin: 0 25px; 
+    margin: 0 auto; 
 }
 
 .card {
