@@ -7,7 +7,7 @@ body {
     display: block;
     background-image: url("https://volynua.com/storage/2022/03/17/78150_164.jpg");
     background-size: cover;
-    min-width: 375px;
+    min-width: 300px;
     margin: 40px 20px;
     border: none;
     border-radius: 15px;
@@ -24,13 +24,13 @@ body {
 .items {
     list-style-type: none;
     text-align: center;
-    padding: 0 auto;
+    padding: 0;
 }
 
 .list-item {
     display: inline-flex;
-    justify-content: space-between;
-    margin: 0 20px;
+    justify-content: space-evenly;
+    margin: 0 5px;
 }
 
 .nav-link {
@@ -47,7 +47,6 @@ body {
 }
 
 .hero-title {
-    display: block;
     font-family: 'Montez';
     color: azure;
     font-size: 120px;
@@ -57,10 +56,10 @@ body {
 }
 
 .city-name {
-    display: block;
     font-family: 'Montserrat', sans-serif;
     font-size: 110px;
     font-weight: 900;
+    text-align: center;
     margin-bottom: 25px;
 }
 
@@ -86,7 +85,7 @@ body {
 .food-container,
 .night-container {
     display: block;
-    min-width: 375px;
+    min-width: 300px;
     margin: 40px 20px;
     border: none;
     border-radius: 15px;
@@ -249,6 +248,34 @@ body {
     text-decoration: none;
 }
 
+@media (max-width: 900px) {
+    .hero-container,
+    .informational-conteiner,
+    .architecture-container,
+    .parks-container,
+    .food-container,
+    .night-container  {  
+        margin: 10px auto;
+        padding: 0;
+        border-radius: 10px;
+        box-shadow: 2px 2px 2px 2px rgba(63, 63, 63, 0.5); 
+    }    
+    .hero-title {
+        margin-top: 70px;
+    }
+    
+    .city-name {
+        font-size: 80px;
+    } 
 
+    .nav-link {
+        color: red;
+    }
+    
+    .nav-link:hover,
+    .nav-link:focus {
+        color: rgb(68, 65, 65);
+    }
+}
 
 
