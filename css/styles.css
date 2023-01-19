@@ -4,20 +4,19 @@ body {
 }    
 
 .hero-container {  
-    display: block;
     background-image: url("https://volynua.com/storage/2022/03/17/78150_164.jpg");
     background-size: cover;
     min-width: 300px;
     margin: 40px 20px;
     border: none;
     border-radius: 15px;
-    box-shadow: 5px 5px 5px 5px rgba(63, 63, 63, 0.5); 
+    box-shadow: 2px 2px 3px 3px rgba(63, 63, 63, 0.3); 
 }
 
 .logo-lutsk { 
     display: block;
     border-radius: 10px;
-    box-shadow: 3px 3px 3px 3px rgba(4, 4, 4, 0.5); 
+    box-shadow: 1px 1px 2px 2px rgba(63, 63, 63, 0.3); 
     margin: 15px auto;
 }
 
@@ -49,7 +48,7 @@ body {
 .hero-title {
     font-family: 'Montez';
     color: azure;
-    font-size: 120px;
+    font-size: 140px;
     font-weight: 600;
     text-align: center;
     margin-top: 75px;
@@ -57,7 +56,7 @@ body {
 
 .city-name {
     font-family: 'Montserrat', sans-serif;
-    font-size: 110px;
+    font-size: 130px;
     font-weight: 900;
     text-align: center;
     margin-bottom: 25px;
@@ -89,7 +88,7 @@ body {
     margin: 40px 20px;
     border: none;
     border-radius: 15px;
-    box-shadow: 5px 5px 5px 5px rgba(63, 63, 63, 0.5);
+    box-shadow: 2px 2px 3px 3px rgba(63, 63, 63, 0.3);
 }
 
 .informational-tіtle,
@@ -132,9 +131,9 @@ body {
 
 .list-item-information {
     text-align: center;
-    border: none;
+    border: none; 
     border-radius: 15px;
-    box-shadow: 5px 5px 5px 5px rgba(63, 63, 63, 0.5); 
+    box-shadow: 1px 1px 2px 2px rgba(63, 63, 63, 0.3);
     margin: 5px 5px;
 }
 
@@ -159,7 +158,7 @@ body {
 .map-lutsk {
     display: block;
     border-radius: 10px;
-    box-shadow: 3px 3px 3px 3px rgba(4, 4, 4, 0.5); 
+    box-shadow: 1px 1px 2px 2px rgba(63, 63, 63, 0.3); 
     margin: 15px auto;
 }
 
@@ -189,7 +188,7 @@ body {
 }
 
 .card {
-    box-shadow: 3px 3px 3px 3px rgba(63, 63, 63, 0.5); 
+    box-shadow: 1px 1px 2px 2px rgba(63, 63, 63, 0.3); 
     margin: 20px auto;
 }
 
@@ -212,40 +211,33 @@ body {
     font-size: 20px;
     font-weight: 400; 
     border-radius: 10px;
-    box-shadow: 3px 3px 3px 3px rgba(4, 4, 4, 0.5); 
+    box-shadow: 1px 1px 2px 2px rgba(63, 63, 63, 0.3); 
     margin: 15px 15px;    
 }
 
-.creator {
+.footer {
     color: rgb(68, 65, 65);
     font-size: 15px;
     font-weight: 600;
     text-align: center;
     margin-bottom: 15px;
+    text-decoration: none;
 }
 
-.creator-instagram,
+
+.instagram-link,
 .github-link {
     color: rgb(68, 65, 65);
+    font-size: 20px;
 }
 
-.creator-instagram { 
-    text-decoration: none;
-}
-
-.github-link {
-    text-decoration: underline
-}
-
-.creator-instagram:hover,
+.instagram-link:hover,
 .github-link:hover {
     color: red;
+    font-size: 25px;
     font-weight: 700;
-    cursor: pointer;
-}
-
-.github-link:hover {
     text-decoration: none;
+    cursor: pointer;
 }
 
 @media (max-width: 900px) {
@@ -255,13 +247,13 @@ body {
     .parks-container,
     .food-container,
     .night-container  {  
-        margin: 10px auto;
+        margin: 20px auto;
         padding: 0;
         border-radius: 10px;
-        box-shadow: 2px 2px 2px 2px rgba(63, 63, 63, 0.5); 
-    }    
+    }  
+
     .hero-title {
-        margin-top: 70px;
+        font-size: 90px;
     }
     
     .city-name {
@@ -269,12 +261,12 @@ body {
     } 
 
     .nav-link {
-        color: red;
+        color:  rgb(68, 65, 65);
     }
     
     .nav-link:hover,
     .nav-link:focus {
-        color: rgb(68, 65, 65);
+        color: red;
     }
 }
 
