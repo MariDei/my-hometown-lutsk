@@ -257,14 +257,8 @@ body {
     .night-container  {  
         margin: 20px auto;
         padding: 0;
-        border-radius: none;
-        box-shadow: none;
+        border-radius: 10px;
     }  
-
-    .architecture-container,
-    .food-container {
-        background: bisque;
-    }
 
     .hero-title {
         font-size: 90px;
