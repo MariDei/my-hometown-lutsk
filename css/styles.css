@@ -241,6 +241,14 @@ body {
 }
 
 @media (max-width: 900px) {
+    html {
+        overflow-x: hidden;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
     .hero-container,
     .informational-conteiner,
     .architecture-container,
@@ -250,7 +258,13 @@ body {
         margin: 20px auto;
         padding: 0;
         border-radius: 10px;
+        box-shadow: none;
     }  
+
+    .architecture-container,
+    .food-container {
+        background: rgb(244, 244, 240);
+    }
 
     .hero-title {
         font-size: 90px;
