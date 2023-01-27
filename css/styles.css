@@ -257,13 +257,13 @@ body {
     .night-container  {  
         margin: 20px auto;
         padding: 0;
-        border-radius: 10px;
+        border-radius: none;
         box-shadow: none;
     }  
 
     .architecture-container,
     .food-container {
-        background: rgb(244, 244, 240);
+        background: bisque;
     }
 
     .hero-title {
